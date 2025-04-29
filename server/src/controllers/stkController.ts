@@ -22,7 +22,7 @@ const handleStkPush = async (req: RequestExtended, res: Response) => {
     PartyB: process.env.MPESA_BUSINESS_SHORT_CODE,
     PhoneNumber: phone,
     CallBackURL: "https://mydomain.com/path",
-    AccountReference: "BuySasa online shop",
+    AccountReference: "FinPal Platform",
     TransactionDesc: "Payment",
   };
 
